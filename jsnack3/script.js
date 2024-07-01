@@ -11,5 +11,8 @@ let sum = 0;
 
 // for statement with i from 0 to 3 (split length)
 for(let i=0; i < split.length; i++) {
-    
+    // tranform from string to number
+    let split_number = parseInt(split[i]);
+    // add the number to the sum for every iteration
+    sum += split_number
 }
