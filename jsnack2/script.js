@@ -6,4 +6,8 @@ let odd = [];
 // for statement
 for (i = 0; i < 6; i++) {
     let num = parseInt(prompt("Inserisci un numero"));
+    // if statement
+    if (num % 2 !== 0) {
+        odd.push(num);
+    }
 }
