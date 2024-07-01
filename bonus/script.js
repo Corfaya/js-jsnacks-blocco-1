@@ -5,5 +5,12 @@ let sum = 0;
 
 // for statement
 for (i = 0; i < 10; i++) {
-    
+    // value from the prompt
+    let user_number = prompt("Inserire un numero")
+    // from string to number
+    let toNum = parseInt(user_number);
+    // add value to sum
+    sum += toNum;
 }
+
+console.log(`La somma dei numeri inseriti è: ${sum}`)
