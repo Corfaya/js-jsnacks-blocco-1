@@ -11,3 +11,5 @@ for (i = 0; i < 6; i++) {
         odd.push(num);
     }
 }
+
+console.log(odd)
