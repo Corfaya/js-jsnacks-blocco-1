@@ -4,7 +4,7 @@ Il programma stampa la somma di tutti i numeri inseriti. */
 let sum = 0;
 
 // for statement
-for (i = 0; i < 10; i++) {
+for (let i = 0; i < 10; i++) {
     // value from the prompt
     let user_number = prompt("Inserire un numero")
     // from string to number
